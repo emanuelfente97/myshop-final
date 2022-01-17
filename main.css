@@ -1,0 +1,28 @@
+#products {
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.navbar{
+  background-color:purple;
+
+}
+img {
+  height: 200px !important;
+  object-fit: cover;
+}
+
+.card {
+  width: calc((100% / 4) - 15px);
+  min-width: 300px;
+  background: rgb(219, 210, 212);
+  border-radius: 5%;
+}
+
+.card-title {
+  text-transform: capitalize;
+  color: black;
+}
+
+.modal-backdrop {
+  z-index: -1;
+}
